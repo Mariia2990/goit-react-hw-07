@@ -47,9 +47,10 @@ align-items: center;
 
 .iconPeople,
 .iconPhone{
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     margin-right: 6px;
+    display: inline-block;
 }
 
 .contactInfo{

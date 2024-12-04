@@ -12,8 +12,10 @@ const Contact = ({ contact }) => {
 
   return (
     <li className={css.itemContact}>
-      <IoMdPerson className={css.iconPeople} />
-      {contact.name}: <BsFillTelephoneFill className={css.iconPhone} />
+      <IoMdPerson size={18} className={css.iconPeople} />
+      {contact.name}:{' '}
+      <BsFillTelephoneFill size={18} className={css.iconPhone}
+      />
       {contact.number}
       <button className={css.buttonDelete} onClick={handleDelete}>
         Delete
